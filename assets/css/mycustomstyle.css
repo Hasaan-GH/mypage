@@ -1,0 +1,205 @@
+.navbar {
+    background-color: rgba(0, 0, 0, 0) !important;
+    transition-property: background-color, color;
+    transition-duration: 0.5s;
+    transition-function: ease-in-out;
+  }
+  
+  .navbar-dark {
+    background: rgb(255, 255, 255);
+    height: 70px;
+    box-shadow: 0px 0px 30px rgb(127 137 161 / 30%);
+  }
+  
+  .navbar-dark .navbar-nav .nav-link {
+    color: rgb(60 57 57 / 50%) !important;
+}
+h1.text {
+    color: yellowgreen;
+}
+#background-header{
+    background-image: url(../images/banner.jpg);
+    width: 100%;
+
+    position: relative;
+    background-size: cover;
+}
+
+@media (max-width: 991px){
+    #background-header {
+        height: auto;
+        padding: 0px 0 30px 0;
+    }
+}
+.log-brand{
+    font-size: 36px;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #413e66;
+}
+
+a.nav-link.active{
+    color: #1bb1dc;
+    font-weight:bold;
+}
+/* a.nav-link{
+    font-weight: 700px;
+    color: #0d6efd;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+     */
+
+     li.nav-item {
+        color: #020d1d !important;
+        text-decoration: none;
+        transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+        font-weight:bold;
+    }
+    .heading-banner {
+        padding-top: 100px;
+        padding-left: 21px;
+        color: #413e66;
+        margin-bottom: 40px;
+        font-size: 48px;
+        font-weight: 700;
+    }
+.blue-span{
+    color: #1bb1dc; 
+}   
+
+.img-banner-left {
+    padding-top: 100px;
+    max-width: 90%;
+    height: auto;
+}
+.btn-started{
+    margin-left: 21px;
+    color: rgb(255, 255, 255);
+    background-color:#1bb1dc; 
+}
+
+.zoom {
+    padding: 0px;
+    transition: transform .2s;
+    margin: 0 auto;
+  }
+.zoom:hover {
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
+  }
+
+  #backus {
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(245, 245, 245));
+  }
+
+
+h2.about-heading {
+    font-size: 40px;
+    text-transform: capitalize;
+    color: #413e66;
+}
+#about .about-img::before {
+    position: absolute;
+    left: -31px;
+    top: -30px;
+    width: 90%;
+    height: 92%;
+    z-index: -1;
+    content: '';
+    background-color: #ebf1fa;
+    transition: .5s;
+}
+#about .about-img::after {
+    position: absolute;
+    right: -31px;
+    bottom: -30px;
+    width: 90%;
+    height: 92%;
+    z-index: -1;
+    content: '';
+    background-color: #ebf1fa;
+    transition: .5s;
+}
+.sub-text {
+    font-style: italic;
+    font-size: 21px;
+    color: #413e6685;
+}
+#about {
+    padding-top: 100px;
+}
+.spacing-box {
+    margin-left: 60px;
+}
+i.fal.fa-check-circle{
+font-size: 20px;
+    padding-right: 4px;
+    color: #1bb1dc;
+}
+li.desc-list {
+    margin-bottom: 10px;
+}
+#service-background{
+    background: #f5f8fd;
+    padding: 60px 0 40px 0;
+}
+.heading-top{
+    color: #413e66;
+    font-size: 36px;
+}
+.box{
+    padding: 10px;
+    border-radius: 10px;
+    /* margin: 0 10px 40px 10px; */
+background-color: rgb(255, 255, 255);
+box-shadow: 0px 0px 10px #44444463;
+-webkit-transition: all 200ms ease-in;
+-webkit-transform: scale(1); 
+-ms-transition: all 200ms ease-in;
+-ms-transform: scale(1); 
+-moz-transition: all 200ms ease-in;
+-moz-transform: scale(1);
+transition: all 200ms ease-in;
+transform: scale(1);   
+}
+.box:hover{
+
+    box-shadow: 0px 0px 10px #444;
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.1);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.1);
+    transition: all 200ms ease-in;
+    transform: scale(1.1);
+    
+}
+i.fa.fa-briefcase {
+    font-size: 35px;
+    color:black;  
+}
+
+
+#section-box.title{
+color:black;
+}  
+
+.heading-text {
+    font-size: 18px;
+    padding-top: 9px;
+}
+/* #abc:hover {
+    color:blue;
+    text-decoration: none;
+    transition: 0.5s;
+} */
+
+    
+
+
